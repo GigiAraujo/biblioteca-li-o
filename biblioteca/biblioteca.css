@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #edf2f7;
+    color: #4a5568;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    background-color: #4a5568;
+    color: #f7fafc;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.carrossel {
+    display: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -2px #0000000d;
+    transition: transform 0.2s;
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+.botoes {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #4a5568;
+    color: #f7fafc;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    box-shadow: 0 6px 15px #2a29291a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5182b4;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #e2e8f0;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #a0aec0;
+    outline: none;
+}
+
+#carrosselTexto {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.aviso-bar {
+    background-color: #e2e8f0;
+    color: #4a5568;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    border-top: 1px solid #d2d6db;
+    border-bottom: 1px solid #d2d6db;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px -1px #0000001a;
+}
+
+.conteudo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 200px;
+    margin-left: 140px;
+}
+
+.frm{
+    width: 300px;
+}
+
+.botoes-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem-container {
+    text-align: right;
+    width: 70%;
+}
+
+.aviso-bar {
+    background-color: #e2e8f0;
+    color: #4a5568;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    border-top: 1px solid #d2d6db;
+    border-bottom: 1px solid #d2d6db;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px -1px #0000001a;
+}
